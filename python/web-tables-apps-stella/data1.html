@@ -1,0 +1,873 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>country</th>
+      <th>category</th>
+      <th>currency</th>
+      <th>iids</th>
+      <th>esID</th>
+      <th>s</th>
+      <th>importance</th>
+      <th>name</th>
+      <th>type</th>
+      <th>group</th>
+      <th>frequency</th>
+      <th>unit</th>
+      <th>pretty_name</th>
+      <th>url</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Finland</td>
+      <td>Imports</td>
+      <td>USD</td>
+      <td>te:comtrade:finland.excat.ctglobal</td>
+      <td>te:comtrade:finland.excat.ctglobal</td>
+      <td>finland.excat.ctglobal</td>
+      <td>50</td>
+      <td>Finland Exports by Category</td>
+      <td>comtrade</td>
+      <td>None</td>
+      <td>Annual</td>
+      <td>None</td>
+      <td>Finland Exports by Category</td>
+      <td>/finland/exports-by-category</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Finland</td>
+      <td>Imports</td>
+      <td>USD</td>
+      <td>te:comtrade:finland.excount.ctglobal</td>
+      <td>te:comtrade:finland.excount.ctglobal</td>
+      <td>finland.excount.ctglobal</td>
+      <td>50</td>
+      <td>Finland Exports by Country</td>
+      <td>comtrade</td>
+      <td>None</td>
+      <td>Annual</td>
+      <td>None</td>
+      <td>Finland Exports by Country</td>
+      <td>/finland/exports-by-country</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Finland</td>
+      <td>Imports</td>
+      <td>USD</td>
+      <td>te:comtrade:finland.imcount.ctglobal</td>
+      <td>te:comtrade:finland.imcount.ctglobal</td>
+      <td>finland.imcount.ctglobal</td>
+      <td>50</td>
+      <td>Finland Imports by Country</td>
+      <td>comtrade</td>
+      <td>None</td>
+      <td>Annual</td>
+      <td>None</td>
+      <td>Finland Imports by Country</td>
+      <td>/finland/imports-by-country</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Finland</td>
+      <td>Imports</td>
+      <td>USD</td>
+      <td>te:comtrade:finland.imcat.ctglobal</td>
+      <td>te:comtrade:finland.imcat.ctglobal</td>
+      <td>finland.imcat.ctglobal</td>
+      <td>50</td>
+      <td>Finland Imports by Category</td>
+      <td>comtrade</td>
+      <td>None</td>
+      <td>Annual</td>
+      <td>None</td>
+      <td>Finland Imports by Category</td>
+      <td>/finland/imports-by-category</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>None</td>
+      <td>Exports</td>
+      <td>USD</td>
+      <td>te:comtrade:usafin00002</td>
+      <td>te:comtrade:usafin00002</td>
+      <td>usafin00002:comtrade</td>
+      <td>41</td>
+      <td>United States exports to Finland</td>
+      <td>comtrade</td>
+      <td>None</td>
+      <td>Annual</td>
+      <td>None</td>
+      <td>United States exports to Finland</td>
+      <td>/united-states/exports/finland</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>None</td>
+      <td>Imports</td>
+      <td>USD</td>
+      <td>te:comtrade:usafin00001</td>
+      <td>te:comtrade:usafin00001</td>
+      <td>usafin00001:comtrade</td>
+      <td>41</td>
+      <td>United States imports from Finland</td>
+      <td>comtrade</td>
+      <td>None</td>
+      <td>Annual</td>
+      <td>None</td>
+      <td>United States imports from Finland</td>
+      <td>/united-states/imports/finland</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>None</td>
+      <td>Imports</td>
+      <td>USD</td>
+      <td>te:comtrade:chnfin00001</td>
+      <td>te:comtrade:chnfin00001</td>
+      <td>chnfin00001:comtrade</td>
+      <td>34</td>
+      <td>China imports from Finland</td>
+      <td>comtrade</td>
+      <td>None</td>
+      <td>Annual</td>
+      <td>None</td>
+      <td>China imports from Finland</td>
+      <td>/china/imports/finland</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>None</td>
+      <td>Exports</td>
+      <td>USD</td>
+      <td>te:comtrade:chnfin00002</td>
+      <td>te:comtrade:chnfin00002</td>
+      <td>chnfin00002:comtrade</td>
+      <td>34</td>
+      <td>China exports to Finland</td>
+      <td>comtrade</td>
+      <td>None</td>
+      <td>Annual</td>
+      <td>None</td>
+      <td>China exports to Finland</td>
+      <td>/china/exports/finland</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>None</td>
+      <td>Exports</td>
+      <td>USD</td>
+      <td>te:comtrade:usafinxx032</td>
+      <td>te:comtrade:usafinxx032</td>
+      <td>usafinxx032:comtrade</td>
+      <td>26</td>
+      <td>United States exports of fish, crustaceans, molluscs, aquatics invertebrates to Finland</td>
+      <td>comtrade</td>
+      <td>None</td>
+      <td>Annual</td>
+      <td>None</td>
+      <td>United States exports of fish, crustaceans, molluscs, aquatics invertebrates to Finland</td>
+      <td>/united-states/exports/finland/fish-crustaceans-molluscs-aquatics-invertebrates</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>None</td>
+      <td>Exports</td>
+      <td>USD</td>
+      <td>te:comtrade:usafinxx042</td>
+      <td>te:comtrade:usafinxx042</td>
+      <td>usafinxx042:comtrade</td>
+      <td>26</td>
+      <td>United States exports of dairy products, eggs, honey, edible products to Finland</td>
+      <td>comtrade</td>
+      <td>None</td>
+      <td>Annual</td>
+      <td>None</td>
+      <td>United States exports of dairy products, eggs, honey, edible products to Finland</td>
+      <td>/united-states/exports/finland/dairy-products-eggs-honey-edible-products</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>None</td>
+      <td>Imports</td>
+      <td>USD</td>
+      <td>te:comtrade:usafinxx051</td>
+      <td>te:comtrade:usafinxx051</td>
+      <td>usafinxx051:comtrade</td>
+      <td>26</td>
+      <td>United States Imports from Finland of Products of animal origin</td>
+      <td>comtrade</td>
+      <td>None</td>
+      <td>Annual</td>
+      <td>None</td>
+      <td>United States Imports from Finland of Products of animal origin</td>
+      <td>/united-states/imports/finland/products-animal-origin</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>None</td>
+      <td>Exports</td>
+      <td>USD</td>
+      <td>te:comtrade:usafinxx072</td>
+      <td>te:comtrade:usafinxx072</td>
+      <td>usafinxx072:comtrade</td>
+      <td>26</td>
+      <td>United States exports of edible vegetables and certain roots and tubers to Finland</td>
+      <td>comtrade</td>
+      <td>None</td>
+      <td>Annual</td>
+      <td>None</td>
+      <td>United States exports of edible vegetables and certain roots and tubers to Finland</td>
+      <td>/united-states/exports/finland/edible-vegetables-certain-roots-tubers</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>None</td>
+      <td>Imports</td>
+      <td>USD</td>
+      <td>te:comtrade:usafinxx091</td>
+      <td>te:comtrade:usafinxx091</td>
+      <td>usafinxx091:comtrade</td>
+      <td>26</td>
+      <td>United States Imports from Finland of Coffee, tea, mate and spices</td>
+      <td>comtrade</td>
+      <td>None</td>
+      <td>Annual</td>
+      <td>None</td>
+      <td>United States Imports from Finland of Coffee, tea, mate and spices</td>
+      <td>/united-states/imports/finland/coffee-tea-mate-spices</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>None</td>
+      <td>Exports</td>
+      <td>USD</td>
+      <td>te:comtrade:usafinxx092</td>
+      <td>te:comtrade:usafinxx092</td>
+      <td>usafinxx092:comtrade</td>
+      <td>26</td>
+      <td>United States exports of coffee, tea, mate and spices to Finland</td>
+      <td>comtrade</td>
+      <td>None</td>
+      <td>Annual</td>
+      <td>None</td>
+      <td>United States exports of coffee, tea, mate and spices to Finland</td>
+      <td>/united-states/exports/finland/coffee-tea-mate-spices</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>None</td>
+      <td>Exports</td>
+      <td>USD</td>
+      <td>te:comtrade:usafinxx102</td>
+      <td>te:comtrade:usafinxx102</td>
+      <td>usafinxx102:comtrade</td>
+      <td>26</td>
+      <td>United States exports of cereals to Finland</td>
+      <td>comtrade</td>
+      <td>None</td>
+      <td>Annual</td>
+      <td>None</td>
+      <td>United States exports of cereals to Finland</td>
+      <td>/united-states/exports/finland/cereals</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>None</td>
+      <td>Exports</td>
+      <td>USD</td>
+      <td>te:comtrade:usafinxx112</td>
+      <td>te:comtrade:usafinxx112</td>
+      <td>usafinxx112:comtrade</td>
+      <td>26</td>
+      <td>United States exports of milling products, malt, starches, inlin, wheat gluten to Finland</td>
+      <td>comtrade</td>
+      <td>None</td>
+      <td>Annual</td>
+      <td>None</td>
+      <td>United States exports of milling products, malt, starches, inlin, wheat gluten to Finland</td>
+      <td>/united-states/exports/finland/products-milling-industry-malt-starches-inulin-wheat-gluten</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>None</td>
+      <td>Imports</td>
+      <td>USD</td>
+      <td>te:comtrade:usafinxx171</td>
+      <td>te:comtrade:usafinxx171</td>
+      <td>usafinxx171:comtrade</td>
+      <td>26</td>
+      <td>United States Imports from Finland of Sugars and sugar confectionery</td>
+      <td>comtrade</td>
+      <td>None</td>
+      <td>Annual</td>
+      <td>None</td>
+      <td>United States Imports from Finland of Sugars and sugar confectionery</td>
+      <td>/united-states/imports/finland/sugars-sugar-confectionery</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>None</td>
+      <td>Exports</td>
+      <td>USD</td>
+      <td>te:comtrade:usafinxx202</td>
+      <td>te:comtrade:usafinxx202</td>
+      <td>usafinxx202:comtrade</td>
+      <td>26</td>
+      <td>United States exports of vegetable, fruit, nut food preparations to Finland</td>
+      <td>comtrade</td>
+      <td>None</td>
+      <td>Annual</td>
+      <td>None</td>
+      <td>United States exports of vegetable, fruit, nut food preparations to Finland</td>
+      <td>/united-states/exports/finland/vegetable-fruit-nut-food-preparations</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>None</td>
+      <td>Imports</td>
+      <td>USD</td>
+      <td>te:comtrade:usafinxx221</td>
+      <td>te:comtrade:usafinxx221</td>
+      <td>usafinxx221:comtrade</td>
+      <td>26</td>
+      <td>United States Imports from Finland of Beverages, spirits and vinegar</td>
+      <td>comtrade</td>
+      <td>None</td>
+      <td>Annual</td>
+      <td>None</td>
+      <td>United States Imports from Finland of Beverages, spirits and vinegar</td>
+      <td>/united-states/imports/finland/beverages-spirits-vinegar</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>None</td>
+      <td>Exports</td>
+      <td>USD</td>
+      <td>te:comtrade:usafinxx222</td>
+      <td>te:comtrade:usafinxx222</td>
+      <td>usafinxx222:comtrade</td>
+      <td>26</td>
+      <td>United States exports of beverages, spirits and vinegar to Finland</td>
+      <td>comtrade</td>
+      <td>None</td>
+      <td>Annual</td>
+      <td>None</td>
+      <td>United States exports of beverages, spirits and vinegar to Finland</td>
+      <td>/united-states/exports/finland/beverages-spirits-vinegar</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>None</td>
+      <td>Exports</td>
+      <td>USD</td>
+      <td>te:comtrade:usafinxx262</td>
+      <td>te:comtrade:usafinxx262</td>
+      <td>usafinxx262:comtrade</td>
+      <td>26</td>
+      <td>United States exports of ores slag and ash to Finland</td>
+      <td>comtrade</td>
+      <td>None</td>
+      <td>Annual</td>
+      <td>None</td>
+      <td>United States exports of ores slag and ash to Finland</td>
+      <td>/united-states/exports/finland/ores-slag-ash</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>None</td>
+      <td>Exports</td>
+      <td>USD</td>
+      <td>te:comtrade:usafinxx272</td>
+      <td>te:comtrade:usafinxx272</td>
+      <td>usafinxx272:comtrade</td>
+      <td>26</td>
+      <td>United States exports of mineral fuels, oils, distillation products to Finland</td>
+      <td>comtrade</td>
+      <td>None</td>
+      <td>Annual</td>
+      <td>None</td>
+      <td>United States exports of mineral fuels, oils, distillation products to Finland</td>
+      <td>/united-states/exports/finland/mineral-fuels-oils-distillation-products</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>None</td>
+      <td>Exports</td>
+      <td>USD</td>
+      <td>te:comtrade:usafinxx302</td>
+      <td>te:comtrade:usafinxx302</td>
+      <td>usafinxx302:comtrade</td>
+      <td>26</td>
+      <td>United States exports of pharmaceutical products to Finland</td>
+      <td>comtrade</td>
+      <td>None</td>
+      <td>Annual</td>
+      <td>None</td>
+      <td>United States exports of pharmaceutical products to Finland</td>
+      <td>/united-states/exports/finland/pharmaceutical-products</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>None</td>
+      <td>Imports</td>
+      <td>USD</td>
+      <td>te:comtrade:usafinxx361</td>
+      <td>te:comtrade:usafinxx361</td>
+      <td>usafinxx361:comtrade</td>
+      <td>26</td>
+      <td>United States Imports from Finland of Explosives, pyrotechnics, matches, pyrophorics</td>
+      <td>comtrade</td>
+      <td>None</td>
+      <td>Annual</td>
+      <td>None</td>
+      <td>United States Imports from Finland of Explosives, pyrotechnics, matches, pyrophorics</td>
+      <td>/united-states/imports/finland/explosives-pyrotechnics-matches-pyrophorics</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>None</td>
+      <td>Imports</td>
+      <td>USD</td>
+      <td>te:comtrade:usafinxx391</td>
+      <td>te:comtrade:usafinxx391</td>
+      <td>usafinxx391:comtrade</td>
+      <td>26</td>
+      <td>United States Imports from Finland of Plastics</td>
+      <td>comtrade</td>
+      <td>None</td>
+      <td>Annual</td>
+      <td>None</td>
+      <td>United States Imports from Finland of Plastics</td>
+      <td>/united-states/imports/finland/plastics</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>None</td>
+      <td>Exports</td>
+      <td>USD</td>
+      <td>te:comtrade:usafinxx392</td>
+      <td>te:comtrade:usafinxx392</td>
+      <td>usafinxx392:comtrade</td>
+      <td>26</td>
+      <td>United States exports of plastics to Finland</td>
+      <td>comtrade</td>
+      <td>None</td>
+      <td>Annual</td>
+      <td>None</td>
+      <td>United States exports of plastics to Finland</td>
+      <td>/united-states/exports/finland/plastics</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>None</td>
+      <td>Imports</td>
+      <td>USD</td>
+      <td>te:comtrade:usafinxx401</td>
+      <td>te:comtrade:usafinxx401</td>
+      <td>usafinxx401:comtrade</td>
+      <td>26</td>
+      <td>United States Imports from Finland of Rubbers</td>
+      <td>comtrade</td>
+      <td>None</td>
+      <td>Annual</td>
+      <td>None</td>
+      <td>United States Imports from Finland of Rubbers</td>
+      <td>/united-states/imports/finland/rubbers</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>None</td>
+      <td>Imports</td>
+      <td>USD</td>
+      <td>te:comtrade:usafinxx411</td>
+      <td>te:comtrade:usafinxx411</td>
+      <td>usafinxx411:comtrade</td>
+      <td>26</td>
+      <td>United States Imports from Finland of Raw hides and skins (other than furskins) and leather</td>
+      <td>comtrade</td>
+      <td>None</td>
+      <td>Annual</td>
+      <td>None</td>
+      <td>United States Imports from Finland of Raw hides and skins (other than furskins) and leather</td>
+      <td>/united-states/imports/finland/raw-hides-skins-than-furskins-leather</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>None</td>
+      <td>Imports</td>
+      <td>USD</td>
+      <td>te:comtrade:usafinxx431</td>
+      <td>te:comtrade:usafinxx431</td>
+      <td>usafinxx431:comtrade</td>
+      <td>26</td>
+      <td>United States Imports from Finland of Furskins and artificial fur</td>
+      <td>comtrade</td>
+      <td>None</td>
+      <td>Annual</td>
+      <td>None</td>
+      <td>United States Imports from Finland of Furskins and artificial fur</td>
+      <td>/united-states/imports/finland/furskins-artificial-fur-manufactures-thereof</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>None</td>
+      <td>Imports</td>
+      <td>USD</td>
+      <td>te:comtrade:usafinxx441</td>
+      <td>te:comtrade:usafinxx441</td>
+      <td>usafinxx441:comtrade</td>
+      <td>26</td>
+      <td>United States Imports from Finland of Wood and articles of wood, wood charcoal</td>
+      <td>comtrade</td>
+      <td>None</td>
+      <td>Annual</td>
+      <td>None</td>
+      <td>United States Imports from Finland of Wood and articles of wood, wood charcoal</td>
+      <td>/united-states/imports/finland/wood-articles-wood-wood-charcoal</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>None</td>
+      <td>Imports</td>
+      <td>USD</td>
+      <td>te:comtrade:usafinxx451</td>
+      <td>te:comtrade:usafinxx451</td>
+      <td>usafinxx451:comtrade</td>
+      <td>26</td>
+      <td>United States Imports from Finland of Cork and articles of cork</td>
+      <td>comtrade</td>
+      <td>None</td>
+      <td>Annual</td>
+      <td>None</td>
+      <td>United States Imports from Finland of Cork and articles of cork</td>
+      <td>/united-states/imports/finland/cork-articles-cork</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>None</td>
+      <td>Exports</td>
+      <td>USD</td>
+      <td>te:comtrade:usafinxx452</td>
+      <td>te:comtrade:usafinxx452</td>
+      <td>usafinxx452:comtrade</td>
+      <td>26</td>
+      <td>United States exports of cork and articles of cork to Finland</td>
+      <td>comtrade</td>
+      <td>None</td>
+      <td>Annual</td>
+      <td>None</td>
+      <td>United States exports of cork and articles of cork to Finland</td>
+      <td>/united-states/exports/finland/cork-articles-cork</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>None</td>
+      <td>Imports</td>
+      <td>USD</td>
+      <td>te:comtrade:usafinxx461</td>
+      <td>te:comtrade:usafinxx461</td>
+      <td>usafinxx461:comtrade</td>
+      <td>26</td>
+      <td>United States Imports from Finland of Manufacturers of plaiting material, basketwork</td>
+      <td>comtrade</td>
+      <td>None</td>
+      <td>Annual</td>
+      <td>None</td>
+      <td>United States Imports from Finland of Manufacturers of plaiting material, basketwork</td>
+      <td>/united-states/imports/finland/manufacturers-plaiting-material-basketwork</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>None</td>
+      <td>Imports</td>
+      <td>USD</td>
+      <td>te:comtrade:usafinxx521</td>
+      <td>te:comtrade:usafinxx521</td>
+      <td>usafinxx521:comtrade</td>
+      <td>26</td>
+      <td>United States Imports from Finland of Cotton</td>
+      <td>comtrade</td>
+      <td>None</td>
+      <td>Annual</td>
+      <td>None</td>
+      <td>United States Imports from Finland of Cotton</td>
+      <td>/united-states/imports/finland/cotton</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>None</td>
+      <td>Exports</td>
+      <td>USD</td>
+      <td>te:comtrade:usafinxx522</td>
+      <td>te:comtrade:usafinxx522</td>
+      <td>usafinxx522:comtrade</td>
+      <td>26</td>
+      <td>United States exports of cotton to Finland</td>
+      <td>comtrade</td>
+      <td>None</td>
+      <td>Annual</td>
+      <td>None</td>
+      <td>United States exports of cotton to Finland</td>
+      <td>/united-states/exports/finland/cotton</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>None</td>
+      <td>Imports</td>
+      <td>USD</td>
+      <td>te:comtrade:usafinxx551</td>
+      <td>te:comtrade:usafinxx551</td>
+      <td>usafinxx551:comtrade</td>
+      <td>26</td>
+      <td>United States Imports from Finland of Manmade staple fibers</td>
+      <td>comtrade</td>
+      <td>None</td>
+      <td>Annual</td>
+      <td>None</td>
+      <td>United States Imports from Finland of Manmade staple fibers</td>
+      <td>/united-states/imports/finland/manmade-staple-fibers</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td>None</td>
+      <td>Exports</td>
+      <td>USD</td>
+      <td>te:comtrade:usafinxx552</td>
+      <td>te:comtrade:usafinxx552</td>
+      <td>usafinxx552:comtrade</td>
+      <td>26</td>
+      <td>United States exports of manmade staple fibers to Finland</td>
+      <td>comtrade</td>
+      <td>None</td>
+      <td>Annual</td>
+      <td>None</td>
+      <td>United States exports of manmade staple fibers to Finland</td>
+      <td>/united-states/exports/finland/manmade-staple-fibers</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>None</td>
+      <td>Imports</td>
+      <td>USD</td>
+      <td>te:comtrade:usafinxx561</td>
+      <td>te:comtrade:usafinxx561</td>
+      <td>usafinxx561:comtrade</td>
+      <td>26</td>
+      <td>United States Imports from Finland of Wadding, felt, nonwovens, yarns, twine, cordage</td>
+      <td>comtrade</td>
+      <td>None</td>
+      <td>Annual</td>
+      <td>None</td>
+      <td>United States Imports from Finland of Wadding, felt, nonwovens, yarns, twine, cordage</td>
+      <td>/united-states/imports/finland/wadding-felt-nonwovens-yarns-twine-cordage</td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td>None</td>
+      <td>Exports</td>
+      <td>USD</td>
+      <td>te:comtrade:usafinxx562</td>
+      <td>te:comtrade:usafinxx562</td>
+      <td>usafinxx562:comtrade</td>
+      <td>26</td>
+      <td>United States exports of wadding, felt, nonwovens, yarns, twine, cordage to Finland</td>
+      <td>comtrade</td>
+      <td>None</td>
+      <td>Annual</td>
+      <td>None</td>
+      <td>United States exports of wadding, felt, nonwovens, yarns, twine, cordage to Finland</td>
+      <td>/united-states/exports/finland/wadding-felt-nonwovens-yarns-twine-cordage</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>None</td>
+      <td>Exports</td>
+      <td>USD</td>
+      <td>te:comtrade:usafinxx612</td>
+      <td>te:comtrade:usafinxx612</td>
+      <td>usafinxx612:comtrade</td>
+      <td>26</td>
+      <td>United States exports of articles of apparel, knit or crocheted to Finland</td>
+      <td>comtrade</td>
+      <td>None</td>
+      <td>Annual</td>
+      <td>None</td>
+      <td>United States exports of articles of apparel, knit or crocheted to Finland</td>
+      <td>/united-states/exports/finland/articles-apparel-accessories-knit-crocheted</td>
+    </tr>
+    <tr>
+      <th>40</th>
+      <td>None</td>
+      <td>Imports</td>
+      <td>USD</td>
+      <td>te:comtrade:usafinxx621</td>
+      <td>te:comtrade:usafinxx621</td>
+      <td>usafinxx621:comtrade</td>
+      <td>26</td>
+      <td>United States Imports from Finland of Articles of apparel, not knit or crocheted</td>
+      <td>comtrade</td>
+      <td>None</td>
+      <td>Annual</td>
+      <td>None</td>
+      <td>United States Imports from Finland of Articles of apparel, not knit or crocheted</td>
+      <td>/united-states/imports/finland/articles-apparel-accessories-not-knit-crocheted</td>
+    </tr>
+    <tr>
+      <th>41</th>
+      <td>None</td>
+      <td>Imports</td>
+      <td>USD</td>
+      <td>te:comtrade:usafinxx661</td>
+      <td>te:comtrade:usafinxx661</td>
+      <td>usafinxx661:comtrade</td>
+      <td>26</td>
+      <td>United States Imports from Finland of Umbrellas, walking-sticks, seat-sticks, whips</td>
+      <td>comtrade</td>
+      <td>None</td>
+      <td>Annual</td>
+      <td>None</td>
+      <td>United States Imports from Finland of Umbrellas, walking-sticks, seat-sticks, whips</td>
+      <td>/united-states/imports/finland/umbrellas-walking-sticks-seat-sticks-whips</td>
+    </tr>
+    <tr>
+      <th>42</th>
+      <td>None</td>
+      <td>Imports</td>
+      <td>USD</td>
+      <td>te:comtrade:usafinxx731</td>
+      <td>te:comtrade:usafinxx731</td>
+      <td>usafinxx731:comtrade</td>
+      <td>26</td>
+      <td>United States Imports from Finland of Articles of iron or steel</td>
+      <td>comtrade</td>
+      <td>None</td>
+      <td>Annual</td>
+      <td>None</td>
+      <td>United States Imports from Finland of Articles of iron or steel</td>
+      <td>/united-states/imports/finland/articles-iron-steel</td>
+    </tr>
+    <tr>
+      <th>43</th>
+      <td>None</td>
+      <td>Imports</td>
+      <td>USD</td>
+      <td>te:comtrade:usafinxx751</td>
+      <td>te:comtrade:usafinxx751</td>
+      <td>usafinxx751:comtrade</td>
+      <td>26</td>
+      <td>United States Imports from Finland of Nickel</td>
+      <td>comtrade</td>
+      <td>None</td>
+      <td>Annual</td>
+      <td>None</td>
+      <td>United States Imports from Finland of Nickel</td>
+      <td>/united-states/imports/finland/nickel</td>
+    </tr>
+    <tr>
+      <th>44</th>
+      <td>None</td>
+      <td>Exports</td>
+      <td>USD</td>
+      <td>te:comtrade:usafinxx762</td>
+      <td>te:comtrade:usafinxx762</td>
+      <td>usafinxx762:comtrade</td>
+      <td>26</td>
+      <td>United States exports of aluminum to Finland</td>
+      <td>comtrade</td>
+      <td>None</td>
+      <td>Annual</td>
+      <td>None</td>
+      <td>United States exports of aluminum to Finland</td>
+      <td>/united-states/exports/finland/aluminum</td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td>None</td>
+      <td>Imports</td>
+      <td>USD</td>
+      <td>te:comtrade:usafinxx791</td>
+      <td>te:comtrade:usafinxx791</td>
+      <td>usafinxx791:comtrade</td>
+      <td>26</td>
+      <td>United States Imports from Finland of Zinc</td>
+      <td>comtrade</td>
+      <td>None</td>
+      <td>Annual</td>
+      <td>None</td>
+      <td>United States Imports from Finland of Zinc</td>
+      <td>/united-states/imports/finland/zinc</td>
+    </tr>
+    <tr>
+      <th>46</th>
+      <td>None</td>
+      <td>Exports</td>
+      <td>USD</td>
+      <td>te:comtrade:usafinxx812</td>
+      <td>te:comtrade:usafinxx812</td>
+      <td>usafinxx812:comtrade</td>
+      <td>26</td>
+      <td>United States exports of base metals not specified elsewhere, cermets. to Finland</td>
+      <td>comtrade</td>
+      <td>None</td>
+      <td>Annual</td>
+      <td>None</td>
+      <td>United States exports of base metals not specified elsewhere, cermets. to Finland</td>
+      <td>/united-states/exports/finland/other-base-metals-cermets</td>
+    </tr>
+    <tr>
+      <th>47</th>
+      <td>None</td>
+      <td>Imports</td>
+      <td>USD</td>
+      <td>te:comtrade:usafinxx841</td>
+      <td>te:comtrade:usafinxx841</td>
+      <td>usafinxx841:comtrade</td>
+      <td>26</td>
+      <td>United States Imports from Finland of Machinery, nuclear reactors, boilers</td>
+      <td>comtrade</td>
+      <td>None</td>
+      <td>Annual</td>
+      <td>None</td>
+      <td>United States Imports from Finland of Machinery, nuclear reactors, boilers</td>
+      <td>/united-states/imports/finland/nuclear-reactors-boilers-machinery</td>
+    </tr>
+    <tr>
+      <th>48</th>
+      <td>None</td>
+      <td>Imports</td>
+      <td>USD</td>
+      <td>te:comtrade:usafinxx871</td>
+      <td>te:comtrade:usafinxx871</td>
+      <td>usafinxx871:comtrade</td>
+      <td>26</td>
+      <td>United States Imports from Finland of Vehicles other than railway, tramway</td>
+      <td>comtrade</td>
+      <td>None</td>
+      <td>Annual</td>
+      <td>None</td>
+      <td>United States Imports from Finland of Vehicles other than railway, tramway</td>
+      <td>/united-states/imports/finland/vehicles-not-railway-tramway</td>
+    </tr>
+    <tr>
+      <th>49</th>
+      <td>None</td>
+      <td>Exports</td>
+      <td>USD</td>
+      <td>te:comtrade:usafinxx872</td>
+      <td>te:comtrade:usafinxx872</td>
+      <td>usafinxx872:comtrade</td>
+      <td>26</td>
+      <td>United States exports of vehicles other than railway, tramway to Finland</td>
+      <td>comtrade</td>
+      <td>None</td>
+      <td>Annual</td>
+      <td>None</td>
+      <td>United States exports of vehicles other than railway, tramway to Finland</td>
+      <td>/united-states/exports/finland/vehicles-not-railway-tramway</td>
+    </tr>
+  </tbody>
+</table>

@@ -1,0 +1,982 @@
+{
+    "info": {
+        "hits": {
+            "value": 10000,
+            "relation": "gte"
+        },
+        "page": 0,
+        "facets": {
+            "country": [],
+            "unit": [
+                {
+                    "key": "Percent",
+                    "doc_count": 980
+                },
+                {
+                    "key": "Persons",
+                    "doc_count": 426
+                },
+                {
+                    "key": "LCU",
+                    "doc_count": 76
+                },
+                {
+                    "key": "Year",
+                    "doc_count": 46
+                },
+                {
+                    "key": "GPI",
+                    "doc_count": 35
+                },
+                {
+                    "key": "Day",
+                    "doc_count": 10
+                },
+                {
+                    "key": "Hour",
+                    "doc_count": 5
+                },
+                {
+                    "key": "Kilometer",
+                    "doc_count": 5
+                },
+                {
+                    "key": "Square",
+                    "doc_count": 5
+                },
+                {
+                    "key": "100",
+                    "doc_count": 4
+                },
+                {
+                    "key": "People",
+                    "doc_count": 4
+                },
+                {
+                    "key": "Per",
+                    "doc_count": 4
+                },
+                {
+                    "key": "Ha",
+                    "doc_count": 2
+                },
+                {
+                    "key": "Kwh",
+                    "doc_count": 2
+                }
+            ],
+            "currency": [
+                {
+                    "key": "USD",
+                    "doc_count": 37497
+                }
+            ],
+            "category": [],
+            "type": [
+                {
+                    "key": "Comtrade",
+                    "doc_count": 37182
+                },
+                {
+                    "key": "WB",
+                    "doc_count": 2143
+                }
+            ],
+            "group": [
+                {
+                    "key": "Education",
+                    "doc_count": 874
+                },
+                {
+                    "key": "AND",
+                    "doc_count": 287
+                },
+                {
+                    "key": "Economy",
+                    "doc_count": 239
+                },
+                {
+                    "key": "Growth",
+                    "doc_count": 239
+                },
+                {
+                    "key": "Labour",
+                    "doc_count": 210
+                },
+                {
+                    "key": "Government",
+                    "doc_count": 151
+                },
+                {
+                    "key": "Health",
+                    "doc_count": 139
+                },
+                {
+                    "key": "Business",
+                    "doc_count": 137
+                },
+                {
+                    "key": "Aid",
+                    "doc_count": 134
+                },
+                {
+                    "key": "Money",
+                    "doc_count": 96
+                },
+                {
+                    "key": "Energy",
+                    "doc_count": 40
+                },
+                {
+                    "key": "Mining",
+                    "doc_count": 40
+                },
+                {
+                    "key": "Agriculture",
+                    "doc_count": 29
+                },
+                {
+                    "key": "Infrastructure",
+                    "doc_count": 25
+                },
+                {
+                    "key": "Poverty",
+                    "doc_count": 14
+                },
+                {
+                    "key": "Climate",
+                    "doc_count": 10
+                },
+                {
+                    "key": "Science",
+                    "doc_count": 8
+                },
+                {
+                    "key": "Technology",
+                    "doc_count": 8
+                },
+                {
+                    "key": "Development",
+                    "doc_count": 4
+                },
+                {
+                    "key": "Trade",
+                    "doc_count": 1
+                }
+            ],
+            "frequency": [
+                {
+                    "key": "Annual",
+                    "doc_count": 39266
+                },
+                {
+                    "key": "Quarterly",
+                    "doc_count": 59
+                }
+            ]
+        }
+    },
+    "hits": [
+        {
+            "country": "Finland",
+            "category": "Imports",
+            "currency": "USD",
+            "iids": "te:comtrade:finland.excat.ctglobal",
+            "esID": "te:comtrade:finland.excat.ctglobal",
+            "s": "finland.excat.ctglobal",
+            "importance": 50,
+            "name": "Finland Exports by Category",
+            "type": "comtrade",
+            "group": null,
+            "frequency": "Annual",
+            "unit": null,
+            "pretty_name": "Finland Exports by Category",
+            "url": "/finland/exports-by-category"
+        },
+        {
+            "country": "Finland",
+            "category": "Imports",
+            "currency": "USD",
+            "iids": "te:comtrade:finland.excount.ctglobal",
+            "esID": "te:comtrade:finland.excount.ctglobal",
+            "s": "finland.excount.ctglobal",
+            "importance": 50,
+            "name": "Finland Exports by Country",
+            "type": "comtrade",
+            "group": null,
+            "frequency": "Annual",
+            "unit": null,
+            "pretty_name": "Finland Exports by Country",
+            "url": "/finland/exports-by-country"
+        },
+        {
+            "country": "Finland",
+            "category": "Imports",
+            "currency": "USD",
+            "iids": "te:comtrade:finland.imcount.ctglobal",
+            "esID": "te:comtrade:finland.imcount.ctglobal",
+            "s": "finland.imcount.ctglobal",
+            "importance": 50,
+            "name": "Finland Imports by Country",
+            "type": "comtrade",
+            "group": null,
+            "frequency": "Annual",
+            "unit": null,
+            "pretty_name": "Finland Imports by Country",
+            "url": "/finland/imports-by-country"
+        },
+        {
+            "country": "Finland",
+            "category": "Imports",
+            "currency": "USD",
+            "iids": "te:comtrade:finland.imcat.ctglobal",
+            "esID": "te:comtrade:finland.imcat.ctglobal",
+            "s": "finland.imcat.ctglobal",
+            "importance": 50,
+            "name": "Finland Imports by Category",
+            "type": "comtrade",
+            "group": null,
+            "frequency": "Annual",
+            "unit": null,
+            "pretty_name": "Finland Imports by Category",
+            "url": "/finland/imports-by-category"
+        },
+        {
+            "country": null,
+            "category": "Exports",
+            "currency": "USD",
+            "iids": "te:comtrade:usafin00002",
+            "esID": "te:comtrade:usafin00002",
+            "s": "usafin00002:comtrade",
+            "importance": 41,
+            "name": "United States exports to Finland",
+            "type": "comtrade",
+            "group": null,
+            "frequency": "Annual",
+            "unit": null,
+            "pretty_name": "United States exports to Finland",
+            "url": "/united-states/exports/finland"
+        },
+        {
+            "country": null,
+            "category": "Imports",
+            "currency": "USD",
+            "iids": "te:comtrade:usafin00001",
+            "esID": "te:comtrade:usafin00001",
+            "s": "usafin00001:comtrade",
+            "importance": 41,
+            "name": "United States imports from Finland",
+            "type": "comtrade",
+            "group": null,
+            "frequency": "Annual",
+            "unit": null,
+            "pretty_name": "United States imports from Finland",
+            "url": "/united-states/imports/finland"
+        },
+        {
+            "country": null,
+            "category": "Imports",
+            "currency": "USD",
+            "iids": "te:comtrade:chnfin00001",
+            "esID": "te:comtrade:chnfin00001",
+            "s": "chnfin00001:comtrade",
+            "importance": 34,
+            "name": "China imports from Finland",
+            "type": "comtrade",
+            "group": null,
+            "frequency": "Annual",
+            "unit": null,
+            "pretty_name": "China imports from Finland",
+            "url": "/china/imports/finland"
+        },
+        {
+            "country": null,
+            "category": "Exports",
+            "currency": "USD",
+            "iids": "te:comtrade:chnfin00002",
+            "esID": "te:comtrade:chnfin00002",
+            "s": "chnfin00002:comtrade",
+            "importance": 34,
+            "name": "China exports to Finland",
+            "type": "comtrade",
+            "group": null,
+            "frequency": "Annual",
+            "unit": null,
+            "pretty_name": "China exports to Finland",
+            "url": "/china/exports/finland"
+        },
+        {
+            "country": null,
+            "category": "Exports",
+            "currency": "USD",
+            "iids": "te:comtrade:usafinxx032",
+            "esID": "te:comtrade:usafinxx032",
+            "s": "usafinxx032:comtrade",
+            "importance": 26,
+            "name": "United States exports of fish, crustaceans, molluscs, aquatics invertebrates to Finland",
+            "type": "comtrade",
+            "group": null,
+            "frequency": "Annual",
+            "unit": null,
+            "pretty_name": "United States exports of fish, crustaceans, molluscs, aquatics invertebrates to Finland",
+            "url": "/united-states/exports/finland/fish-crustaceans-molluscs-aquatics-invertebrates"
+        },
+        {
+            "country": null,
+            "category": "Exports",
+            "currency": "USD",
+            "iids": "te:comtrade:usafinxx042",
+            "esID": "te:comtrade:usafinxx042",
+            "s": "usafinxx042:comtrade",
+            "importance": 26,
+            "name": "United States exports of dairy products, eggs, honey, edible products to Finland",
+            "type": "comtrade",
+            "group": null,
+            "frequency": "Annual",
+            "unit": null,
+            "pretty_name": "United States exports of dairy products, eggs, honey, edible products to Finland",
+            "url": "/united-states/exports/finland/dairy-products-eggs-honey-edible-products"
+        },
+        {
+            "country": null,
+            "category": "Imports",
+            "currency": "USD",
+            "iids": "te:comtrade:usafinxx051",
+            "esID": "te:comtrade:usafinxx051",
+            "s": "usafinxx051:comtrade",
+            "importance": 26,
+            "name": "United States Imports from Finland of Products of animal origin",
+            "type": "comtrade",
+            "group": null,
+            "frequency": "Annual",
+            "unit": null,
+            "pretty_name": "United States Imports from Finland of Products of animal origin",
+            "url": "/united-states/imports/finland/products-animal-origin"
+        },
+        {
+            "country": null,
+            "category": "Exports",
+            "currency": "USD",
+            "iids": "te:comtrade:usafinxx072",
+            "esID": "te:comtrade:usafinxx072",
+            "s": "usafinxx072:comtrade",
+            "importance": 26,
+            "name": "United States exports of edible vegetables and certain roots and tubers to Finland",
+            "type": "comtrade",
+            "group": null,
+            "frequency": "Annual",
+            "unit": null,
+            "pretty_name": "United States exports of edible vegetables and certain roots and tubers to Finland",
+            "url": "/united-states/exports/finland/edible-vegetables-certain-roots-tubers"
+        },
+        {
+            "country": null,
+            "category": "Imports",
+            "currency": "USD",
+            "iids": "te:comtrade:usafinxx091",
+            "esID": "te:comtrade:usafinxx091",
+            "s": "usafinxx091:comtrade",
+            "importance": 26,
+            "name": "United States Imports from Finland of Coffee, tea, mate and spices",
+            "type": "comtrade",
+            "group": null,
+            "frequency": "Annual",
+            "unit": null,
+            "pretty_name": "United States Imports from Finland of Coffee, tea, mate and spices",
+            "url": "/united-states/imports/finland/coffee-tea-mate-spices"
+        },
+        {
+            "country": null,
+            "category": "Exports",
+            "currency": "USD",
+            "iids": "te:comtrade:usafinxx092",
+            "esID": "te:comtrade:usafinxx092",
+            "s": "usafinxx092:comtrade",
+            "importance": 26,
+            "name": "United States exports of coffee, tea, mate and spices to Finland",
+            "type": "comtrade",
+            "group": null,
+            "frequency": "Annual",
+            "unit": null,
+            "pretty_name": "United States exports of coffee, tea, mate and spices to Finland",
+            "url": "/united-states/exports/finland/coffee-tea-mate-spices"
+        },
+        {
+            "country": null,
+            "category": "Exports",
+            "currency": "USD",
+            "iids": "te:comtrade:usafinxx102",
+            "esID": "te:comtrade:usafinxx102",
+            "s": "usafinxx102:comtrade",
+            "importance": 26,
+            "name": "United States exports of cereals to Finland",
+            "type": "comtrade",
+            "group": null,
+            "frequency": "Annual",
+            "unit": null,
+            "pretty_name": "United States exports of cereals to Finland",
+            "url": "/united-states/exports/finland/cereals"
+        },
+        {
+            "country": null,
+            "category": "Exports",
+            "currency": "USD",
+            "iids": "te:comtrade:usafinxx112",
+            "esID": "te:comtrade:usafinxx112",
+            "s": "usafinxx112:comtrade",
+            "importance": 26,
+            "name": "United States exports of milling products, malt, starches, inlin, wheat gluten to Finland",
+            "type": "comtrade",
+            "group": null,
+            "frequency": "Annual",
+            "unit": null,
+            "pretty_name": "United States exports of milling products, malt, starches, inlin, wheat gluten to Finland",
+            "url": "/united-states/exports/finland/products-milling-industry-malt-starches-inulin-wheat-gluten"
+        },
+        {
+            "country": null,
+            "category": "Imports",
+            "currency": "USD",
+            "iids": "te:comtrade:usafinxx171",
+            "esID": "te:comtrade:usafinxx171",
+            "s": "usafinxx171:comtrade",
+            "importance": 26,
+            "name": "United States Imports from Finland of Sugars and sugar confectionery",
+            "type": "comtrade",
+            "group": null,
+            "frequency": "Annual",
+            "unit": null,
+            "pretty_name": "United States Imports from Finland of Sugars and sugar confectionery",
+            "url": "/united-states/imports/finland/sugars-sugar-confectionery"
+        },
+        {
+            "country": null,
+            "category": "Exports",
+            "currency": "USD",
+            "iids": "te:comtrade:usafinxx202",
+            "esID": "te:comtrade:usafinxx202",
+            "s": "usafinxx202:comtrade",
+            "importance": 26,
+            "name": "United States exports of vegetable, fruit, nut food preparations to Finland",
+            "type": "comtrade",
+            "group": null,
+            "frequency": "Annual",
+            "unit": null,
+            "pretty_name": "United States exports of vegetable, fruit, nut food preparations to Finland",
+            "url": "/united-states/exports/finland/vegetable-fruit-nut-food-preparations"
+        },
+        {
+            "country": null,
+            "category": "Imports",
+            "currency": "USD",
+            "iids": "te:comtrade:usafinxx221",
+            "esID": "te:comtrade:usafinxx221",
+            "s": "usafinxx221:comtrade",
+            "importance": 26,
+            "name": "United States Imports from Finland of Beverages, spirits and vinegar",
+            "type": "comtrade",
+            "group": null,
+            "frequency": "Annual",
+            "unit": null,
+            "pretty_name": "United States Imports from Finland of Beverages, spirits and vinegar",
+            "url": "/united-states/imports/finland/beverages-spirits-vinegar"
+        },
+        {
+            "country": null,
+            "category": "Exports",
+            "currency": "USD",
+            "iids": "te:comtrade:usafinxx222",
+            "esID": "te:comtrade:usafinxx222",
+            "s": "usafinxx222:comtrade",
+            "importance": 26,
+            "name": "United States exports of beverages, spirits and vinegar to Finland",
+            "type": "comtrade",
+            "group": null,
+            "frequency": "Annual",
+            "unit": null,
+            "pretty_name": "United States exports of beverages, spirits and vinegar to Finland",
+            "url": "/united-states/exports/finland/beverages-spirits-vinegar"
+        },
+        {
+            "country": null,
+            "category": "Exports",
+            "currency": "USD",
+            "iids": "te:comtrade:usafinxx262",
+            "esID": "te:comtrade:usafinxx262",
+            "s": "usafinxx262:comtrade",
+            "importance": 26,
+            "name": "United States exports of ores slag and ash to Finland",
+            "type": "comtrade",
+            "group": null,
+            "frequency": "Annual",
+            "unit": null,
+            "pretty_name": "United States exports of ores slag and ash to Finland",
+            "url": "/united-states/exports/finland/ores-slag-ash"
+        },
+        {
+            "country": null,
+            "category": "Exports",
+            "currency": "USD",
+            "iids": "te:comtrade:usafinxx272",
+            "esID": "te:comtrade:usafinxx272",
+            "s": "usafinxx272:comtrade",
+            "importance": 26,
+            "name": "United States exports of mineral fuels, oils, distillation products to Finland",
+            "type": "comtrade",
+            "group": null,
+            "frequency": "Annual",
+            "unit": null,
+            "pretty_name": "United States exports of mineral fuels, oils, distillation products to Finland",
+            "url": "/united-states/exports/finland/mineral-fuels-oils-distillation-products"
+        },
+        {
+            "country": null,
+            "category": "Exports",
+            "currency": "USD",
+            "iids": "te:comtrade:usafinxx302",
+            "esID": "te:comtrade:usafinxx302",
+            "s": "usafinxx302:comtrade",
+            "importance": 26,
+            "name": "United States exports of pharmaceutical products to Finland",
+            "type": "comtrade",
+            "group": null,
+            "frequency": "Annual",
+            "unit": null,
+            "pretty_name": "United States exports of pharmaceutical products to Finland",
+            "url": "/united-states/exports/finland/pharmaceutical-products"
+        },
+        {
+            "country": null,
+            "category": "Imports",
+            "currency": "USD",
+            "iids": "te:comtrade:usafinxx361",
+            "esID": "te:comtrade:usafinxx361",
+            "s": "usafinxx361:comtrade",
+            "importance": 26,
+            "name": "United States Imports from Finland of Explosives, pyrotechnics, matches, pyrophorics",
+            "type": "comtrade",
+            "group": null,
+            "frequency": "Annual",
+            "unit": null,
+            "pretty_name": "United States Imports from Finland of Explosives, pyrotechnics, matches, pyrophorics",
+            "url": "/united-states/imports/finland/explosives-pyrotechnics-matches-pyrophorics"
+        },
+        {
+            "country": null,
+            "category": "Imports",
+            "currency": "USD",
+            "iids": "te:comtrade:usafinxx391",
+            "esID": "te:comtrade:usafinxx391",
+            "s": "usafinxx391:comtrade",
+            "importance": 26,
+            "name": "United States Imports from Finland of Plastics",
+            "type": "comtrade",
+            "group": null,
+            "frequency": "Annual",
+            "unit": null,
+            "pretty_name": "United States Imports from Finland of Plastics",
+            "url": "/united-states/imports/finland/plastics"
+        },
+        {
+            "country": null,
+            "category": "Exports",
+            "currency": "USD",
+            "iids": "te:comtrade:usafinxx392",
+            "esID": "te:comtrade:usafinxx392",
+            "s": "usafinxx392:comtrade",
+            "importance": 26,
+            "name": "United States exports of plastics to Finland",
+            "type": "comtrade",
+            "group": null,
+            "frequency": "Annual",
+            "unit": null,
+            "pretty_name": "United States exports of plastics to Finland",
+            "url": "/united-states/exports/finland/plastics"
+        },
+        {
+            "country": null,
+            "category": "Imports",
+            "currency": "USD",
+            "iids": "te:comtrade:usafinxx401",
+            "esID": "te:comtrade:usafinxx401",
+            "s": "usafinxx401:comtrade",
+            "importance": 26,
+            "name": "United States Imports from Finland of Rubbers",
+            "type": "comtrade",
+            "group": null,
+            "frequency": "Annual",
+            "unit": null,
+            "pretty_name": "United States Imports from Finland of Rubbers",
+            "url": "/united-states/imports/finland/rubbers"
+        },
+        {
+            "country": null,
+            "category": "Imports",
+            "currency": "USD",
+            "iids": "te:comtrade:usafinxx411",
+            "esID": "te:comtrade:usafinxx411",
+            "s": "usafinxx411:comtrade",
+            "importance": 26,
+            "name": "United States Imports from Finland of Raw hides and skins (other than furskins) and leather",
+            "type": "comtrade",
+            "group": null,
+            "frequency": "Annual",
+            "unit": null,
+            "pretty_name": "United States Imports from Finland of Raw hides and skins (other than furskins) and leather",
+            "url": "/united-states/imports/finland/raw-hides-skins-than-furskins-leather"
+        },
+        {
+            "country": null,
+            "category": "Imports",
+            "currency": "USD",
+            "iids": "te:comtrade:usafinxx431",
+            "esID": "te:comtrade:usafinxx431",
+            "s": "usafinxx431:comtrade",
+            "importance": 26,
+            "name": "United States Imports from Finland of Furskins and artificial fur",
+            "type": "comtrade",
+            "group": null,
+            "frequency": "Annual",
+            "unit": null,
+            "pretty_name": "United States Imports from Finland of Furskins and artificial fur",
+            "url": "/united-states/imports/finland/furskins-artificial-fur-manufactures-thereof"
+        },
+        {
+            "country": null,
+            "category": "Imports",
+            "currency": "USD",
+            "iids": "te:comtrade:usafinxx441",
+            "esID": "te:comtrade:usafinxx441",
+            "s": "usafinxx441:comtrade",
+            "importance": 26,
+            "name": "United States Imports from Finland of Wood and articles of wood, wood charcoal",
+            "type": "comtrade",
+            "group": null,
+            "frequency": "Annual",
+            "unit": null,
+            "pretty_name": "United States Imports from Finland of Wood and articles of wood, wood charcoal",
+            "url": "/united-states/imports/finland/wood-articles-wood-wood-charcoal"
+        },
+        {
+            "country": null,
+            "category": "Imports",
+            "currency": "USD",
+            "iids": "te:comtrade:usafinxx451",
+            "esID": "te:comtrade:usafinxx451",
+            "s": "usafinxx451:comtrade",
+            "importance": 26,
+            "name": "United States Imports from Finland of Cork and articles of cork",
+            "type": "comtrade",
+            "group": null,
+            "frequency": "Annual",
+            "unit": null,
+            "pretty_name": "United States Imports from Finland of Cork and articles of cork",
+            "url": "/united-states/imports/finland/cork-articles-cork"
+        },
+        {
+            "country": null,
+            "category": "Exports",
+            "currency": "USD",
+            "iids": "te:comtrade:usafinxx452",
+            "esID": "te:comtrade:usafinxx452",
+            "s": "usafinxx452:comtrade",
+            "importance": 26,
+            "name": "United States exports of cork and articles of cork to Finland",
+            "type": "comtrade",
+            "group": null,
+            "frequency": "Annual",
+            "unit": null,
+            "pretty_name": "United States exports of cork and articles of cork to Finland",
+            "url": "/united-states/exports/finland/cork-articles-cork"
+        },
+        {
+            "country": null,
+            "category": "Imports",
+            "currency": "USD",
+            "iids": "te:comtrade:usafinxx461",
+            "esID": "te:comtrade:usafinxx461",
+            "s": "usafinxx461:comtrade",
+            "importance": 26,
+            "name": "United States Imports from Finland of Manufacturers of plaiting material, basketwork",
+            "type": "comtrade",
+            "group": null,
+            "frequency": "Annual",
+            "unit": null,
+            "pretty_name": "United States Imports from Finland of Manufacturers of plaiting material, basketwork",
+            "url": "/united-states/imports/finland/manufacturers-plaiting-material-basketwork"
+        },
+        {
+            "country": null,
+            "category": "Imports",
+            "currency": "USD",
+            "iids": "te:comtrade:usafinxx521",
+            "esID": "te:comtrade:usafinxx521",
+            "s": "usafinxx521:comtrade",
+            "importance": 26,
+            "name": "United States Imports from Finland of Cotton",
+            "type": "comtrade",
+            "group": null,
+            "frequency": "Annual",
+            "unit": null,
+            "pretty_name": "United States Imports from Finland of Cotton",
+            "url": "/united-states/imports/finland/cotton"
+        },
+        {
+            "country": null,
+            "category": "Exports",
+            "currency": "USD",
+            "iids": "te:comtrade:usafinxx522",
+            "esID": "te:comtrade:usafinxx522",
+            "s": "usafinxx522:comtrade",
+            "importance": 26,
+            "name": "United States exports of cotton to Finland",
+            "type": "comtrade",
+            "group": null,
+            "frequency": "Annual",
+            "unit": null,
+            "pretty_name": "United States exports of cotton to Finland",
+            "url": "/united-states/exports/finland/cotton"
+        },
+        {
+            "country": null,
+            "category": "Imports",
+            "currency": "USD",
+            "iids": "te:comtrade:usafinxx551",
+            "esID": "te:comtrade:usafinxx551",
+            "s": "usafinxx551:comtrade",
+            "importance": 26,
+            "name": "United States Imports from Finland of Manmade staple fibers",
+            "type": "comtrade",
+            "group": null,
+            "frequency": "Annual",
+            "unit": null,
+            "pretty_name": "United States Imports from Finland of Manmade staple fibers",
+            "url": "/united-states/imports/finland/manmade-staple-fibers"
+        },
+        {
+            "country": null,
+            "category": "Exports",
+            "currency": "USD",
+            "iids": "te:comtrade:usafinxx552",
+            "esID": "te:comtrade:usafinxx552",
+            "s": "usafinxx552:comtrade",
+            "importance": 26,
+            "name": "United States exports of manmade staple fibers to Finland",
+            "type": "comtrade",
+            "group": null,
+            "frequency": "Annual",
+            "unit": null,
+            "pretty_name": "United States exports of manmade staple fibers to Finland",
+            "url": "/united-states/exports/finland/manmade-staple-fibers"
+        },
+        {
+            "country": null,
+            "category": "Imports",
+            "currency": "USD",
+            "iids": "te:comtrade:usafinxx561",
+            "esID": "te:comtrade:usafinxx561",
+            "s": "usafinxx561:comtrade",
+            "importance": 26,
+            "name": "United States Imports from Finland of Wadding, felt, nonwovens, yarns, twine, cordage",
+            "type": "comtrade",
+            "group": null,
+            "frequency": "Annual",
+            "unit": null,
+            "pretty_name": "United States Imports from Finland of Wadding, felt, nonwovens, yarns, twine, cordage",
+            "url": "/united-states/imports/finland/wadding-felt-nonwovens-yarns-twine-cordage"
+        },
+        {
+            "country": null,
+            "category": "Exports",
+            "currency": "USD",
+            "iids": "te:comtrade:usafinxx562",
+            "esID": "te:comtrade:usafinxx562",
+            "s": "usafinxx562:comtrade",
+            "importance": 26,
+            "name": "United States exports of wadding, felt, nonwovens, yarns, twine, cordage to Finland",
+            "type": "comtrade",
+            "group": null,
+            "frequency": "Annual",
+            "unit": null,
+            "pretty_name": "United States exports of wadding, felt, nonwovens, yarns, twine, cordage to Finland",
+            "url": "/united-states/exports/finland/wadding-felt-nonwovens-yarns-twine-cordage"
+        },
+        {
+            "country": null,
+            "category": "Exports",
+            "currency": "USD",
+            "iids": "te:comtrade:usafinxx612",
+            "esID": "te:comtrade:usafinxx612",
+            "s": "usafinxx612:comtrade",
+            "importance": 26,
+            "name": "United States exports of articles of apparel, knit or crocheted to Finland",
+            "type": "comtrade",
+            "group": null,
+            "frequency": "Annual",
+            "unit": null,
+            "pretty_name": "United States exports of articles of apparel, knit or crocheted to Finland",
+            "url": "/united-states/exports/finland/articles-apparel-accessories-knit-crocheted"
+        },
+        {
+            "country": null,
+            "category": "Imports",
+            "currency": "USD",
+            "iids": "te:comtrade:usafinxx621",
+            "esID": "te:comtrade:usafinxx621",
+            "s": "usafinxx621:comtrade",
+            "importance": 26,
+            "name": "United States Imports from Finland of Articles of apparel, not knit or crocheted",
+            "type": "comtrade",
+            "group": null,
+            "frequency": "Annual",
+            "unit": null,
+            "pretty_name": "United States Imports from Finland of Articles of apparel, not knit or crocheted",
+            "url": "/united-states/imports/finland/articles-apparel-accessories-not-knit-crocheted"
+        },
+        {
+            "country": null,
+            "category": "Imports",
+            "currency": "USD",
+            "iids": "te:comtrade:usafinxx661",
+            "esID": "te:comtrade:usafinxx661",
+            "s": "usafinxx661:comtrade",
+            "importance": 26,
+            "name": "United States Imports from Finland of Umbrellas, walking-sticks, seat-sticks, whips",
+            "type": "comtrade",
+            "group": null,
+            "frequency": "Annual",
+            "unit": null,
+            "pretty_name": "United States Imports from Finland of Umbrellas, walking-sticks, seat-sticks, whips",
+            "url": "/united-states/imports/finland/umbrellas-walking-sticks-seat-sticks-whips"
+        },
+        {
+            "country": null,
+            "category": "Imports",
+            "currency": "USD",
+            "iids": "te:comtrade:usafinxx731",
+            "esID": "te:comtrade:usafinxx731",
+            "s": "usafinxx731:comtrade",
+            "importance": 26,
+            "name": "United States Imports from Finland of Articles of iron or steel",
+            "type": "comtrade",
+            "group": null,
+            "frequency": "Annual",
+            "unit": null,
+            "pretty_name": "United States Imports from Finland of Articles of iron or steel",
+            "url": "/united-states/imports/finland/articles-iron-steel"
+        },
+        {
+            "country": null,
+            "category": "Imports",
+            "currency": "USD",
+            "iids": "te:comtrade:usafinxx751",
+            "esID": "te:comtrade:usafinxx751",
+            "s": "usafinxx751:comtrade",
+            "importance": 26,
+            "name": "United States Imports from Finland of Nickel",
+            "type": "comtrade",
+            "group": null,
+            "frequency": "Annual",
+            "unit": null,
+            "pretty_name": "United States Imports from Finland of Nickel",
+            "url": "/united-states/imports/finland/nickel"
+        },
+        {
+            "country": null,
+            "category": "Exports",
+            "currency": "USD",
+            "iids": "te:comtrade:usafinxx762",
+            "esID": "te:comtrade:usafinxx762",
+            "s": "usafinxx762:comtrade",
+            "importance": 26,
+            "name": "United States exports of aluminum to Finland",
+            "type": "comtrade",
+            "group": null,
+            "frequency": "Annual",
+            "unit": null,
+            "pretty_name": "United States exports of aluminum to Finland",
+            "url": "/united-states/exports/finland/aluminum"
+        },
+        {
+            "country": null,
+            "category": "Imports",
+            "currency": "USD",
+            "iids": "te:comtrade:usafinxx791",
+            "esID": "te:comtrade:usafinxx791",
+            "s": "usafinxx791:comtrade",
+            "importance": 26,
+            "name": "United States Imports from Finland of Zinc",
+            "type": "comtrade",
+            "group": null,
+            "frequency": "Annual",
+            "unit": null,
+            "pretty_name": "United States Imports from Finland of Zinc",
+            "url": "/united-states/imports/finland/zinc"
+        },
+        {
+            "country": null,
+            "category": "Exports",
+            "currency": "USD",
+            "iids": "te:comtrade:usafinxx812",
+            "esID": "te:comtrade:usafinxx812",
+            "s": "usafinxx812:comtrade",
+            "importance": 26,
+            "name": "United States exports of base metals not specified elsewhere, cermets. to Finland",
+            "type": "comtrade",
+            "group": null,
+            "frequency": "Annual",
+            "unit": null,
+            "pretty_name": "United States exports of base metals not specified elsewhere, cermets. to Finland",
+            "url": "/united-states/exports/finland/other-base-metals-cermets"
+        },
+        {
+            "country": null,
+            "category": "Imports",
+            "currency": "USD",
+            "iids": "te:comtrade:usafinxx841",
+            "esID": "te:comtrade:usafinxx841",
+            "s": "usafinxx841:comtrade",
+            "importance": 26,
+            "name": "United States Imports from Finland of Machinery, nuclear reactors, boilers",
+            "type": "comtrade",
+            "group": null,
+            "frequency": "Annual",
+            "unit": null,
+            "pretty_name": "United States Imports from Finland of Machinery, nuclear reactors, boilers",
+            "url": "/united-states/imports/finland/nuclear-reactors-boilers-machinery"
+        },
+        {
+            "country": null,
+            "category": "Imports",
+            "currency": "USD",
+            "iids": "te:comtrade:usafinxx871",
+            "esID": "te:comtrade:usafinxx871",
+            "s": "usafinxx871:comtrade",
+            "importance": 26,
+            "name": "United States Imports from Finland of Vehicles other than railway, tramway",
+            "type": "comtrade",
+            "group": null,
+            "frequency": "Annual",
+            "unit": null,
+            "pretty_name": "United States Imports from Finland of Vehicles other than railway, tramway",
+            "url": "/united-states/imports/finland/vehicles-not-railway-tramway"
+        },
+        {
+            "country": null,
+            "category": "Exports",
+            "currency": "USD",
+            "iids": "te:comtrade:usafinxx872",
+            "esID": "te:comtrade:usafinxx872",
+            "s": "usafinxx872:comtrade",
+            "importance": 26,
+            "name": "United States exports of vehicles other than railway, tramway to Finland",
+            "type": "comtrade",
+            "group": null,
+            "frequency": "Annual",
+            "unit": null,
+            "pretty_name": "United States exports of vehicles other than railway, tramway to Finland",
+            "url": "/united-states/exports/finland/vehicles-not-railway-tramway"
+        }
+    ],
+    "stance": "1"
+}

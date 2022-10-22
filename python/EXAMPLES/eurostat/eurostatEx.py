@@ -70,4 +70,3 @@ df.to_csv(path, index=False, header=True, sep='|')
 
 # If you want the code into an html table format, you can use the example below in your html projects
 # print(mydata.to_html())
-
